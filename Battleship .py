@@ -271,6 +271,7 @@ def mainmenu():
                 board(20,[0,0,0,1,0,0,0,0,0,0,0,0])
         except:
             print("Please enter 1,2 or 3")
+            mainmenu()
     elif ans=="b":
         displayscore()
         mainmenu()
